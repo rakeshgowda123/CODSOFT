@@ -1,4 +1,4 @@
 # CODSOFT
 Landing page
-calulator
+
 
