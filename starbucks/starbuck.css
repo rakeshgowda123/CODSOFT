@@ -1,0 +1,281 @@
+.container1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* gap: 130px; */
+    border: 0.5px solid;
+    border-radius: 10px;
+    gap: 28rem;
+    /* box-shadow: 10px 10px rgb(173, 198, 202); */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+
+.photo img {
+    height: 70px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    gap: 0%;
+
+}
+
+.men {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 30px;
+    transition: all 2s;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* width: 40px; */
+
+}
+
+.button {
+    display: flex;
+    /* align-items: center; */
+    gap: 15px;
+    height: 30px;
+
+
+
+}
+
+.button button {
+    border-radius: 15px;
+    width: 6.5em;
+    font-weight: bold;
+
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+h2:hover {
+    /* font-size: 20px; */
+    color: brown;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.button :hover {
+    transform: scale(1.1);
+    color: black;
+    color: rgb(139, 0, 0);
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+
+.leftcontainer {
+    display: flex;
+    background-image: url("https://www.starbucks.co.nz/content/menu/0813984001646123913.jpg");
+    height: 32rem;
+    width: 50%;
+    position: relative;
+    left: 0%;
+}
+.rightcontainer p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.rightcontainer button:hover{
+transform: scale(1.1);
+font-weight: bolder;
+}
+
+.summ {
+    left: 90px;
+    position: relative;
+}
+
+.rightcontainer {
+    height: 32rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+
+}
+
+
+/* second container */
+
+
+.container3 {
+    display: flex;
+    position: relative;
+    top: 70px;
+
+
+}
+
+.leftcontainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    flex-direction: column;
+    width: 50%;
+    height: 32rem;
+}
+
+.rightcontainer2 {
+    height: 32rem;
+    width: 50%;
+    background: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84927.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose {
+    position: relative;
+    top: -7em;
+}
+
+.leftcontainer2 p {
+    /* height: 40px;
+    width: 100px;
+    border-radius: 20px; */
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+.leftcontainer2 .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.leftcontainer2 .button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+ /* third container */
+
+ .container4{
+    display: flex;
+    position: relative;
+    top: 90px;
+    height: 39rem;
+
+
+ }
+
+ .leftcontainer3 h1{
+    position: relative;
+    left: 6rem;
+    top: -10px;
+ }
+ .leftcontainer3  {
+    background-image: url(https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-84930.jpg);
+    background-size: cover;
+    display: flex;
+    width: 50%;
+    height: 32rem;
+ }
+ 
+ .rightcontainer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 32rem;
+    flex-direction: column;
+    background-color: rgb(137, 137, 238);
+ }
+ .rightcontainer3 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+ }
+ .rightcontainer3 button:hover{
+    transform: scale(1.1);
+ }
+ .rightcontainer3 p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    /* height: 180px; */
+ }
+ .container-5{
+    height: 14rem;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+ }
+ .container-5 p{
+    height: 120px;
+ }
+.footer{
+    height: 25rem;
+    width: 100%;
+
+}
+li{
+    list-style-type: none;
+    position: relative;
+    left: -37px;
+    height: 45px;
+    font-size: 17px;
+}
+.footer{
+    display: flex;
+    position: relative;
+    top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.icons .logo{
+    height: 60px;}
+.icons .logo {
+    /* height: 50px; */
+    display: flex;
+    width: 30px;
+    height: 30px;
+    gap: 10px;
+
+}
+.footer .aboutus{
+    cursor: pointer;
+
+}
