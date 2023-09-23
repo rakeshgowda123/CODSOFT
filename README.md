@@ -1,3 +1,3 @@
 # CODSOFT
 Landing page
-calculator
+
